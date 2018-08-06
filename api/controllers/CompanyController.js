@@ -8,9 +8,9 @@
 module.exports = {
 
 
-//fetchting indivisual data
-  async create(req,res){
-    //fetching whole data
+// fetchting indivisual data
+  async create(req,res) {
+  //fetching whole data
     try{
       let params = req.allParams();
       if(!params.name && !params.phone){
